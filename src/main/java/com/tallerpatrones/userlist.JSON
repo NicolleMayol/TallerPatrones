@@ -1,0 +1,20 @@
+{
+    "users": [
+        {
+            "id": "0",
+            "name": "Nicolle",
+            "email": "nmayolm@gmail.com",
+            "facebook": "Nicolle Mayol",
+            "sms": "3182730625",
+            "empresarial": "nmayol@empresarial.com"
+        },
+        {
+            "id": "1",
+            "name": "Juan",
+            "email": "jduquem@gmail.com",
+            "facebook": "Juan Duque",
+            "sms": "3138401234",
+            "empresarial": "jduque@empresarial.com"
+        }
+    ]
+}
