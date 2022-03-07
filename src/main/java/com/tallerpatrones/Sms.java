@@ -9,8 +9,10 @@ public class Sms extends Mensaje {
         this.id = super.getUsuario();
     }
 
+    /**
+     * @param msg
+     */
     public void enviar(String msg) {
-        super.enviar(msg);
         String sms = jsonManager.getUserData("sms", id);
         String name = jsonManager.getUserData("name", id);
         System.out.println("Enviando: '" + msg + "' a " + name + " por Sms al número: " + sms);

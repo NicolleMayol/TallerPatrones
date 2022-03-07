@@ -7,13 +7,19 @@ public class Notificador implements NotificadorInterface {
         this.id = id;
     }
 
+    /**
+     * @param msg
+     */
     @Override
     public void enviar(String msg) {
-        String mail = jsonManager.getUserData("mail", id);
+        String mail = jsonManager.getUserData("email", id);
         String name = jsonManager.getUserData("name", id);
-        System.out.println("Enviando:  " + msg + " a " + name + "por el email " + mail);
+        System.out.println("Enviando:  " + msg + " a " + name + " por el email " + mail);
     }
 
+    /**
+     * @return int
+     */
     @Override
     public int getUsuario() {
         return id;
