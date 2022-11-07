@@ -8,6 +8,7 @@ public class Creador {
 
     public Creador(int id) {
         this.notificador = new Notificador(id);
+        /* ay no */
 
     }
 
